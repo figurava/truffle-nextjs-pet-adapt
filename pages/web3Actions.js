@@ -1,6 +1,6 @@
 import Web3 from 'web3';
 import axios from 'axios';
-import TruffleContract from 'truffle-contract';
+import TruffleContract from '@truffle/contract';
 
 export default {
   web3: null,
@@ -34,7 +34,9 @@ export default {
     // Get the necessary contract artifact file and instantiate it with @truffle/contract
     axios.get('/contracts/Adoption.json').then((response)=> {
       this.initContract(response.data);
-    });
+    }).catch(() => {
+      alert('Contract is not migrated. First, run truffle migrate on console.  ')
+    })
 
   },
 
