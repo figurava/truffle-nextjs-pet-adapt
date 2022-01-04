@@ -28,7 +28,7 @@ Install Next.js App package dependencies in the project folder.
 
 ```bash
 # change working directory to project folder
-cd truffle-nextjs-pet-adapt
+cd truffle-nextjs-pet-adapt-main
 
 # install dependencies
 npm install
