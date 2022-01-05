@@ -25,7 +25,7 @@ export default class Home extends React.Component {
     return /^0x0+$/.test(address);
   }
 
-  adapt(petId ) {
+  adopt(petId ) {
     web3Actions.handleAdopt(petId)
   }
 
@@ -50,7 +50,7 @@ export default class Home extends React.Component {
               </div>
 
               {this.isEmptyAddress(adopters[pet.id]) ?
-                <button onClick={(e)=>{ this.adapt(pet.id) }} className="bg-sky-300 hover:bg-sky-400 rounded py-2">Adapt Now #{pet.id} </button> :
+                <button onClick={(e)=>{ this.adopt(pet.id) }} className="bg-sky-300 hover:bg-sky-400 rounded py-2">Adopt Now #{pet.id} </button> :
                 <span className="py-2">Has an owner</span>
               }
 
