@@ -67,8 +67,7 @@ Connect your browser wallet to local blockchain. If your browser doesn't have a 
 The most popular one is  [Metamask](https://metamask.io/). Enable wallet's test networks and switch to local network
 so that wallet can access to local blockchain and deployed contracts on it.
 
-Now all is ready click "
-Now" button on the local server and adopt a friend. 
+Now all is ready click "Adopt Now" button on the local server and adopt a friend. 
 You have a centralized front-end connecting to a decentralized backend.
 
 
