@@ -34,7 +34,7 @@ export default class Home extends React.Component {
     const adopteds = adopters.filter((item) => !this.isEmptyAddress(item));
 
     return (<div className="max-w-5xl mx-auto">
-      <h1 className="text-4xl font-bold my-5 text-center">Pet Adapt</h1>
+      <h1 className="text-4xl font-bold my-5 text-center">Pet Adopt</h1>
       <h1 className="text-2xl font-bold mt-5 text-center">
         { adopteds.length } of { adopters.length } pets adapted
       </h1>
