@@ -31,12 +31,12 @@ export default class Home extends React.Component {
 
   render() {
     const { pets, adopters} = this.state;
-    const adapteds = adopters.filter((item) => !this.isEmptyAddress(item));
+    const adopteds = adopters.filter((item) => !this.isEmptyAddress(item));
 
     return (<div className="max-w-5xl mx-auto">
       <h1 className="text-4xl font-bold my-5 text-center">Pet Adapt</h1>
       <h1 className="text-2xl font-bold mt-5 text-center">
-        { adapteds.length } of { adopters.length } pets adapted
+        { adopteds.length } of { adopters.length } pets adapted
       </h1>
 
       <div className="grid grid-cols-4 gap-5 text-center mt-4 mb-10">
