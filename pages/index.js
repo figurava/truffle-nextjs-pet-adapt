@@ -36,7 +36,7 @@ export default class Home extends React.Component {
     return (<div className="max-w-5xl mx-auto">
       <h1 className="text-4xl font-bold my-5 text-center">Pet Adopt</h1>
       <h1 className="text-2xl font-bold mt-5 text-center">
-        { adopteds.length } of { adopters.length } pets adapted
+        { adopteds.length } of { adopters.length } pets adopted
       </h1>
 
       <div className="grid grid-cols-4 gap-5 text-center mt-4 mb-10">
