@@ -1,6 +1,6 @@
 # Truffle Suite with Next.js & Tailwind.css 
 
-## Pet Adapt Demo App
+## Pet Adopt Demo App
 
 Originally published on [official page of truffle suite]( https://trufflesuite.com/tutorial/) using JQuery and Bootstrap.
 
